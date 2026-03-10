@@ -13,7 +13,7 @@ const HeroSection = () => {
       >
         <img
           src={heroBg}
-          alt="Axel Dubin realizando calistenia"
+          alt="Calistenia Titan - Entrenamiento"
           className="w-full h-full object-cover grayscale"
         />
       </motion.div>
@@ -29,7 +29,7 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
         >
-          AXEL DUBIN
+          CALISTENIA TITAN
         </motion.h1>
 
         <motion.div
@@ -45,16 +45,16 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1.2 }}
         >
-          INSTRUCTOR
+          ENTRENÁ COMO TITAN
         </motion.h2>
 
         <motion.p
-          className="font-body font-bold text-muted-foreground text-lg md:text-2xl mt-4 tracking-widest uppercase"
+          className="font-body font-bold text-accent-highlight text-lg md:text-2xl mt-4 tracking-widest uppercase"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 1.6 }}
         >
-          Formate con el mejor
+          Formate con los mejores
         </motion.p>
 
         <motion.a

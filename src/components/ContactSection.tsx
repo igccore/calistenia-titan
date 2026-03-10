@@ -25,21 +25,21 @@ const ContactSection = () => {
             <div className="flex gap-4 mt-10">
               <a
                 href="#"
-                className="w-12 h-12 rounded-lg bg-muted flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-muted/80 transition-all duration-300"
+                className="w-12 h-12 rounded-lg bg-muted flex items-center justify-center text-muted-foreground hover:text-accent-highlight hover:bg-muted/80 transition-all duration-300"
                 aria-label="Instagram"
               >
                 <Instagram size={22} />
               </a>
               <a
                 href="#"
-                className="w-12 h-12 rounded-lg bg-muted flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-muted/80 transition-all duration-300"
+                className="w-12 h-12 rounded-lg bg-muted flex items-center justify-center text-muted-foreground hover:text-accent-highlight hover:bg-muted/80 transition-all duration-300"
                 aria-label="YouTube"
               >
                 <Youtube size={22} />
               </a>
               <a
                 href="#"
-                className="w-12 h-12 rounded-lg bg-muted flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-muted/80 transition-all duration-300"
+                className="w-12 h-12 rounded-lg bg-muted flex items-center justify-center text-muted-foreground hover:text-accent-highlight hover:bg-muted/80 transition-all duration-300"
                 aria-label="WhatsApp"
               >
                 <MessageCircle size={22} />
@@ -47,7 +47,7 @@ const ContactSection = () => {
             </div>
           </motion.div>
 
-          {/* Right - Form Placeholder (for GoHighLevel integration) */}
+          {/* Right - Form */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -61,12 +61,10 @@ const ContactSection = () => {
               <h3 className="font-display text-foreground text-3xl mb-6">
                 ESCRIBINOS
               </h3>
-              {/* Placeholder form - replace with GoHighLevel embed */}
               <form
                 className="space-y-5"
                 onSubmit={(e) => {
                   e.preventDefault();
-                  // TODO: Connect to GoHighLevel CRM
                 }}
               >
                 <div>
@@ -115,7 +113,6 @@ const ContactSection = () => {
                 </button>
               </form>
               <p className="font-body text-xs text-muted-foreground/60 mt-4 text-center">
-                {/* GoHighLevel integration placeholder */}
                 Este formulario se conectará a tu CRM (GoHighLevel)
               </p>
             </div>
