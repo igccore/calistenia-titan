@@ -36,7 +36,7 @@ const CoachingSection = () => {
           </h2>
           <div className="section-divider mt-4 mx-0" />
           <p className="font-body text-muted-foreground text-lg md:text-xl mt-6 max-w-xl leading-relaxed">
-            Entrenamiento personalizado 1 a 1 con Axel Dubin. Calistenia avanzada
+            Entrenamiento personalizado 1 a 1 con Calistenia Titan. Calistenia avanzada
             y coaching de mentalidad para transformar tu cuerpo y tu mente.
           </p>
         </motion.div>
@@ -53,7 +53,7 @@ const CoachingSection = () => {
               transition={{ duration: 0.6, delay: i * 0.15 }}
             >
               <pillar.icon
-                className="text-primary mb-4 group-hover:scale-110 transition-transform duration-300"
+                className="text-accent-highlight mb-4 group-hover:scale-110 transition-transform duration-300"
                 size={36}
               />
               <h3 className="font-display text-foreground text-2xl mb-2">{pillar.title}</h3>

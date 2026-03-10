@@ -5,17 +5,17 @@ const testimonials = [
   {
     name: "Martín R.",
     role: "Instructor Certificado",
-    text: "Gracias a Axel, hoy soy instructor de calistenia. Su método es claro, efectivo y transformador. No solo cambió mi físico, cambió mi mentalidad.",
+    text: "Gracias a Calistenia Titan, hoy soy instructor. Su método es claro, efectivo y transformador. No solo cambió mi físico, cambió mi mentalidad.",
   },
   {
     name: "Lucía G.",
     role: "Alumna Avanzada",
-    text: "Empecé sin poder hacer una flexión y hoy hago muscle-ups. El coaching personalizado marcó la diferencia. Axel es el mejor en lo que hace.",
+    text: "Empecé sin poder hacer una flexión y hoy hago muscle-ups. El coaching personalizado marcó la diferencia.",
   },
   {
     name: "Santiago M.",
     role: "Instructor Certificado",
-    text: "La formación de instructores de Axel es de otro nivel. Contenido profundo, seguimiento constante y una comunidad increíble.",
+    text: "La formación de instructores es de otro nivel. Contenido profundo, seguimiento constante y una comunidad increíble.",
   },
   {
     name: "Valentina P.",
@@ -25,12 +25,12 @@ const testimonials = [
   {
     name: "Diego F.",
     role: "Coach de Mentalidad",
-    text: "El coaching de mentalidad con Axel fue un antes y un después. Me ayudó a superar bloqueos que no sabía que tenía.",
+    text: "El coaching de mentalidad fue un antes y un después. Me ayudó a superar bloqueos que no sabía que tenía.",
   },
   {
     name: "Camila S.",
     role: "Instructora Certificada",
-    text: "Formarme con Axel fue la mejor inversión de mi vida. Hoy tengo mi propio negocio de fitness gracias a sus enseñanzas.",
+    text: "Formarme con Calistenia Titan fue la mejor inversión de mi vida. Hoy tengo mi propio negocio de fitness.",
   },
 ];
 
@@ -48,7 +48,7 @@ const TestimonialCard = ({ t, i }: { t: typeof testimonials[0]; i: number }) => 
     </p>
     <div className="flex items-center gap-1 mb-3">
       {[...Array(5)].map((_, j) => (
-        <Star key={j} className="text-primary fill-primary" size={16} />
+        <Star key={j} className="text-accent-highlight fill-accent-highlight" size={16} />
       ))}
     </div>
     <p className="font-display text-foreground text-xl">{t.name}</p>
@@ -72,7 +72,7 @@ const TestimonialsSection = () => {
           </h2>
           <div className="section-divider mt-4" />
           <p className="font-body text-muted-foreground text-lg md:text-xl mt-6 max-w-2xl mx-auto">
-            Todas las personas que se han formado como instructores con Axel Dubin
+            Todas las personas que se han formado como instructores con Calistenia Titan
             hoy transforman vidas.
           </p>
         </motion.div>

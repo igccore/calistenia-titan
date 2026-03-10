@@ -37,9 +37,12 @@ const ProductsSection = () => {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <h3 className="font-display text-foreground text-4xl md:text-5xl mb-6">
+            <h3 className="font-display text-foreground text-4xl md:text-5xl mb-2">
               CURSO DE CALISTENIA
             </h3>
+            <span className="inline-block font-body font-bold text-accent-highlight-foreground bg-accent-highlight px-3 py-1 rounded text-sm tracking-wider mb-6">
+              MÁS VENDIDO
+            </span>
             <p className="font-body text-muted-foreground text-lg md:text-xl leading-relaxed mb-8">
               Dominá tu cuerpo con el programa más completo de calistenia en español.
               Desde principiante hasta avanzado, con progresiones probadas por cientos
@@ -56,7 +59,7 @@ const ProductsSection = () => {
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: 0.3 + i * 0.1 }}
                 >
-                  <CheckCircle className="text-primary flex-shrink-0" size={22} />
+                  <CheckCircle className="text-accent-highlight flex-shrink-0" size={22} />
                   {feat}
                 </motion.li>
               ))}

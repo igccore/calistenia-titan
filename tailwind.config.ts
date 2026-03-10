@@ -42,6 +42,8 @@ export default {
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
+          highlight: "hsl(var(--accent-highlight))",
+          "highlight-foreground": "hsl(var(--accent-highlight-foreground))",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
@@ -89,8 +91,8 @@ export default {
           "100%": { transform: "translateX(-50%)" },
         },
         "pulse-glow": {
-          "0%, 100%": { boxShadow: "0 0 15px hsl(352 96% 43% / 0.3)" },
-          "50%": { boxShadow: "0 0 30px hsl(352 96% 43% / 0.6)" },
+          "0%, 100%": { boxShadow: "0 0 15px hsl(351 82% 49% / 0.3)" },
+          "50%": { boxShadow: "0 0 30px hsl(351 82% 49% / 0.6)" },
         },
       },
       animation: {
